@@ -1,0 +1,8 @@
+public class for_loop {
+    public static void main(String[]argv){
+        for(int i =0;i<10;i++){
+            System.out.println(i);
+        }
+
+    } 
+}

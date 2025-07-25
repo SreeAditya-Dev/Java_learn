@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Java File with input/output redirection",
+      "type": "shell",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "command": "javac \"${file}\" && java -cp \"${fileDirname}\" ${fileBasenameNoExtension} < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
