@@ -14,7 +14,6 @@ public class App {
       ObjectCounter obj1 = new ObjectCounter();
       ObjectCounter obj2 = new ObjectCounter();
       ObjectCounter obj3 = new ObjectCounter();
-      System.out.println(obj1);
       System.out.println("Number of objects created: " + ObjectCounter.count);
    }
 }
